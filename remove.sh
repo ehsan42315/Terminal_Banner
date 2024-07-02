@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Function to remove the Termux-Banner directory if it exists
+# Function to remove the Terminal-Banner directory if it exists
 folder_remove() {
-    local banner_dir="$HOME/Termux-Banner"
+    local banner_dir="$HOME/Terminal-Banner"
     
     if [[ -d "$banner_dir" ]]; then
         echo "Removing $banner_dir..."
