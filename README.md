@@ -1,12 +1,48 @@
-- 👋 Hi, I’m @ehsan42315
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+Terminal Banner
 
-<!---
-ehsan42315/ehsan42315 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+This Bash script automates the installation of essential utilities and gems on various Linux distributions. It detects the package manager available on the system (apt, pacman, dnf, or yum) and performs necessary updates and installations accordingly.
+Features
+
+    Updates package lists and upgrades installed packages.
+    Installs utilities: figlet, toilet, cowsay, nano, ruby.
+    Installs the lolcat gem for colorful terminal output.
+    Displays a completion message using ASCII art and lolcat.
+    Provides instructions to run another script (install.sh) after installation.
+
+Supported Package Managers
+
+    apt (Debian, Ubuntu)
+    pacman (Arch Linux)
+    dnf (Fedora)
+    yum (CentOS, Red Hat Enterprise Linux)
+
+Usage
+
+    Clone the repository:
+
+    bash
+
+git clone https://github.com/ehsan42315/Terminal_Banner.git
+cd Terminal_Banner
+
+Make the script executable:
+
+bash
+
+chmod +x install.sh
+
+Run the script:
+
+bash
+
+    ./install.sh
+
+    This will automatically detect your package manager and proceed with updating, upgrading, and installing the necessary packages and gems.
+
+    Follow the instructions:
+
+    After the script completes, it will display a message indicating that the installation is complete. Follow any additional instructions provided, such as running bash t-ban.sh.
+
+Developer
+Muhammad Ehsan
+    
