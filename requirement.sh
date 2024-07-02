@@ -92,7 +92,7 @@ figlet -f big "Installation Complete!" | lolcat
 echo ""
 echo -e "\e[1m\e[32m[*] Now Run bash t-ban.sh to start!\e[0m"
 echo ""
-echo -e "\e[1m\e[32m[*] Developed by:\e[33m Sutariya Parixit (8h4i)\e[0m"
+echo -e "\e[1m\e[32m[*] Developed by:\e[33m Muhammad Ehsan\e[0m"
 echo ""
 
 # End of script
